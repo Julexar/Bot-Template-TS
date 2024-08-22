@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "files": ["src/index.ts"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "importHelpers": false,
+    "resolveJsonModule": true,
+    "baseUrl": "./src"
+  },
+  "include": ["src"]
+}
